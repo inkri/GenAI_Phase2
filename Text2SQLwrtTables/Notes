@@ -1,0 +1,15 @@
+Create new venv:
+python -m venv venv
+venv\Scripts\activate
+pip install jupyter
+pip install streamlit
+jupyter notebook
+deactivate
+
+pip install -q --progress-bar off --no-warn-conflicts llama-index-core llama-index-readers-docling llama-index-node-parser-docling llama-index-embeddings-huggingface llama-index-llms-huggingface-api llama-index-readers-file python-dotenv llama-index-llms-ollama
+
+Models:
+https://console.groq.com/docs/models
+
+Run:
+streamlit run app.py
